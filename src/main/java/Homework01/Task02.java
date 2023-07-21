@@ -1,46 +1,44 @@
 package Homework01;
 
+import java.util.Scanner;
+
 public class Task02 {
 
-        public static void main(String[] args) {
-            // TODO Auto-generated method stub
-            int a = 35;
-            int b = 20;
-            System.out.println(a);
-            System.out.println(b);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-            int result = a - b;
-            System.out.println(result);
+        System.out.print("1num int: ");
+        int num1 = scanner.nextInt();
 
-            result = a * b;
-            System.out.println(result);
+        System.out.print("2num double: ");
+        double num2 = scanner.nextDouble();
 
-            result = a / b;
-            System.out.println(result);
+        System.out.print("3num int: ");
+        int num3 = scanner.nextInt();
 
-            result = a + b;
+        System.out.print("4num double: ");
+        double num4 = scanner.nextDouble();
 
-            result = a % b;
-            System.out.println(result); {
+        int tempInt = num1;
+        num1 = (int) num2;
+        num2 = tempInt;
 
-                float c = 75f;
-                float d = 30f;
-                System.out.println(c);
-                System.out.println(d);
+        double tempDouble = num3;
+        num3 = (int)num4;
+        num4 = tempDouble;
 
-                float result2 = c - d;
-                System.out.println(result);
+        System.out.println("New numbers:");
+        System.out.println("num1: " + num1);
+        System.out.println("num2: " + num2);
+        System.out.println("num3: " + num3);
+        System.out.println("num4: " + num4);
 
-                result2 = c * d;
-                System.out.println(result);
+        double sum1 = (double)num1 + num2;
+        int sum2 = num3 + (int)num4;
 
-                result2 = c / d;
-                System.out.println(result);
+        System.out.println("Sum (int to double): " + sum1);
+        System.out.println("Sum (double to int): " + sum2);
 
-                result2 = c + d;
-
-                result2 = c % d;
-                System.out.println(result2);
             }
         }
 
