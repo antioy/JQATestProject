@@ -11,7 +11,7 @@ public class Task03 {
 
         numbers = new double[arraySize];
         for (int i = 0; i < arraySize; i++) {
-            System.out.print("Enter a number "  + (i + 1) + ": ");
+            System.out.print("Enterr a number "  + (i + 1) + ": ");
             numbers[i] = Double.parseDouble(scanner.nextLine());
         }
         System.out.println("The numbers are :");
