@@ -10,7 +10,7 @@ public class Task04 {
         array [0] = 1;
 
 
-            System.out.println("Browse with for loop:");
+            System.out.println("Browse withh for loop:");
             for (int i = 0; i < array.length; i++) {
                 System.out.println(array[i]);
             }
