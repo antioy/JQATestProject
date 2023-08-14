@@ -6,7 +6,7 @@ public class Computer {
      String operationSystem;
 
     Computer(int i, int i1, double v, double v1) {
-        this.operationSystem = " WinXP ";
+        this.operationSystem = " WinXP1 ";
     }
     Computer(int year, double price, Computer computerC) {
         this(2010, 1100, 160.0, 3.0);
