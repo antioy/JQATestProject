@@ -8,7 +8,7 @@ public class PersonDemo {
     public static void main(String[] args) {
 
         Person[] people = new Person[10];
-        Person ivan = new Person("Ivan", 30, true);
+        Person ivan = new Person("Ivana", 30, true);
         Person petya = new Person("Kalina", 26, false);
 
         Student ivo = new Student("Ivo", 20, true, 5.5);
